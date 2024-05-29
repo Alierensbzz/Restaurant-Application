@@ -1,0 +1,76 @@
+﻿@using RestaurantApplication.VarlikKatmani.Models
+@model List<Urun>
+@{
+    ViewBag.Title = "Listele";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <h2 class="text-white">Yemekler</h2>
+        </div>
+    </div>
+    <hr class="bg-light" />
+    <div class="row">
+        <div class="col">
+            <a href="@Url.Action("Ekle","Urun")" class="btn btn-success mb-3">Ürün Ekle</a>
+            <div class="table-responsive">
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Ad</th>
+                            <th>Fiyat</th>
+                            <th>Kategori</th>
+                            <th>Aksiyonlar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Id</td>
+                                <td>@item.Ad</td>
+                                <td>@item.Fiyat</td>
+                                <td>@item.KategoriId</td>
+                                <td>
+                                    <a href="@Url.Action("Sil","Urun",new {id = item.Id})" class="btn btn-danger btn-sm mr-2">Sil</a>
+                                    <a href="@Url.Action("Duzenle","Urun",new {id = item.Id})" class="btn btn-primary btn-sm">Güncelle</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: url('/Images/restaurant1.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .btn {
+        border-radius: 20px;
+    }
+
+    .table {
+        margin-bottom: 0;
+    }
+
+        .table th, .table td {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .table-striped tbody tr:nth-of-type(even) {
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+</style>

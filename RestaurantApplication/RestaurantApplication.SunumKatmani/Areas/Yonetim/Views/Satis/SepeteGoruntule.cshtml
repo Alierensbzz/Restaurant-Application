@@ -1,0 +1,52 @@
+﻿@model RestaurantApplication.VarlikKatmani.Models.Satis
+
+@{
+    ViewBag.Title = "SepeteGoruntule";
+}
+<div class="row">
+    <div class="col-12">
+        <h2>Sepet Detay Listele</h2>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-12">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Kitap Ad</th>
+                    <th>Kitap Adet</th>
+                    <th>Toplam Fiyat</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Detaylar)
+                {
+                    <tr>
+                        <td>@((item.urun == null)?"Yok" : item.urun.Ad)</td>
+                        <td>@item.Adet</td>
+                        <td>@item.Tutar.ToString("C")</td>
+
+                        @*<td>
+                                <a href="@Url.Action("Remove", "Satis", new { id = item.Id })" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Sil</a>
+                                <a href="@Url.Action("SatisDetay","Satis", new { id = item.Id })" class="btn btn-sm btn-success"><i class="fa fa-pencil"></i> Düzenle</a>
+                            </td>*@
+                    </tr>
+                }
+                @if (Model.Detaylar.Count == 0)
+                {
+                    <tr>
+                        <td colspan="3"><span class="text-danger">Sepet Boş</span></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<a href="@Url.Action("Ekle")">Geri</a>
+@if (Model.Detaylar.Count != 0)
+{
+    <a href="@Url.Action("SatisTamamla")" class="btn btn-primary">Tamamla</a>
+}<h2>SepeteGoruntule</h2>
+

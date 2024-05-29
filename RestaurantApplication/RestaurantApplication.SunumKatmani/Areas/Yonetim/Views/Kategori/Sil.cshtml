@@ -1,0 +1,53 @@
+﻿@using RestaurantApplication.VarlikKatmani.Models
+@model Kategori
+@{
+    ViewBag.Title = "Sil";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col text-center">
+            <h2 class="mb-4 text-white">Kategori Sil</h2>
+        </div>
+    </div>
+    <hr class="bg-light" />
+    @using (Html.BeginForm("Sil", "Kategori", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="row mb-3">
+            <div class="col-12 text-white text-center">
+                <p>@Model.Ad adlı Kategoriyi silmek istiyor musunuz?</p>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col text-center">
+                <a href="@Url.Action("Listele", "Kategori")" class="btn btn-danger mr-2">İptal</a>
+                <button type="submit" class="btn btn-primary">Sil</button>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    body {
+        background: url('/Images/restaurant1.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .btn {
+        border-radius: 20px;
+    }
+
+    .text-white {
+        color: #fff;
+    }
+
+    .bg-light {
+        border-color: #f8f9fa !important;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+</style>

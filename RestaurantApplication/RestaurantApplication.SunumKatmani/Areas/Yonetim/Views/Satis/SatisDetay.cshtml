@@ -1,0 +1,39 @@
+﻿@using RestaurantApplication.VarlikKatmani.Models
+@model List<SatisDetay>
+@{
+    ViewBag.Title = "SatisDetay";
+}
+<div class="row">
+    <div class="col-12">
+        <h2>Satış Detay Listele</h2>
+    </div>
+</div>
+<hr />
+
+<div class="row">
+    <div class="col-12">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Yemek</th>
+                    <th>Adet</th>
+                    <th>Tutar</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@((item.urun == null)?"Yok" : item.urun.Ad)</td>
+                        <td>@item.Adet</td>
+                        <td>@item.Tutar.ToString("C")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a href="@Url.Action("Listele")" class="btn btn-dark">Geri</a>
+
+    </div>
+</div>

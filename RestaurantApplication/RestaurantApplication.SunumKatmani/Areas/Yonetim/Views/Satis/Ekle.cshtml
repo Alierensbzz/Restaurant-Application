@@ -1,0 +1,35 @@
+﻿@using RestaurantApplication.VarlikKatmani.Models
+@model List<Urun>
+@{
+    ViewBag.Title = "Ekle";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h2>Satış Ekle</h2>
+    </div>
+</div>
+<hr />
+<a href="@Url.Action("SepeteGoruntule")" class="btn btn-primary"><i class="fa-solid fa-basket-shopping"></i> Sepete Git</a>
+<br />
+<br />
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Ürün Ad</th>
+        <th>Fiyat</th>
+        <th>Kategori Ad</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Ad</td>
+            <td>@item.Fiyat</td>
+            <td>@item.Kategori.Ad</td>
+            <td>
+                <a href="@Url.Action("SepeteEkle", new { id=item.Id })" class="btn btn-success btn-xs">SepeteEkle</a>
+            </td>
+        </tr>
+    }
+</table>

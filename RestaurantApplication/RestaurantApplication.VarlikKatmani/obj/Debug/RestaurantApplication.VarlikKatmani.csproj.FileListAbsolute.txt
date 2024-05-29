@@ -1,0 +1,36 @@
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\RestaurantApplication.VarlikKatmani.dll.config
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\RestaurantApplication.VarlikKatmani.dll
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\RestaurantApplication.VarlikKatmani.pdb
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.dll
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.xml
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.csproj.AssemblyReference.cache
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.csproj.CoreCompileInputs.cache
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\Restaura.0FFC7726.Up2Date
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.dll
+C:\Users\Ali Eren Sabaz\source\repos\Görsel Programlam III\Restaurant\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.pdb
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\RestaurantApplication.VarlikKatmani.dll.config
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\RestaurantApplication.VarlikKatmani.dll
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\RestaurantApplication.VarlikKatmani.pdb
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.dll
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.xml
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.csproj.AssemblyReference.cache
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.csproj.CoreCompileInputs.cache
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.csproj.CopyComplete
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.dll
+C:\Users\creat\Desktop\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.pdb
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\RestaurantApplication.VarlikKatmani.dll.config
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\RestaurantApplication.VarlikKatmani.dll
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\RestaurantApplication.VarlikKatmani.pdb
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.dll
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.SqlServer.dll
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.xml
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\bin\Debug\EntityFramework.SqlServer.xml
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.csproj.AssemblyReference.cache
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.csproj.CoreCompileInputs.cache
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\Restaura.0FFC7726.Up2Date
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.dll
+D:\İnternet 2 proje\RestaurantApplication\RestaurantApplication.VarlikKatmani\obj\Debug\RestaurantApplication.VarlikKatmani.pdb

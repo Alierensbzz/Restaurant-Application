@@ -1,0 +1,30 @@
+﻿@using RestaurantApplication.VarlikKatmani.Models
+@model Urun
+
+@{
+    ViewBag.Title = "Sil";
+}
+<div class="row">
+    <div class="col">
+        <h3>Yemek Sil</h3>
+    </div>
+</div>
+<hr />
+@using (Html.BeginForm("Sil", "Urun", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row mb-3">
+        <div class="col-12">
+            @Model.Ad isimli Ürünü Silmek istiyormusunuz?
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="offset-md-2 col-md-10">
+            <a href="@Url.Action("Listele","Urun")" class="btn btn-danger">İptal</a>
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </div>
+    </div>
+
+}
+

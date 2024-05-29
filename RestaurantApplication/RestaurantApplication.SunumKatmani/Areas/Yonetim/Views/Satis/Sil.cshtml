@@ -1,0 +1,26 @@
+﻿@using RestaurantApplication.VarlikKatmani.Models
+@model Satis
+@{
+    ViewBag.Title = "Sil";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h2>Satış Sil</h2>
+    </div>
+</div>
+<hr />
+<p>@Model.ToplamTutar.ToString("C") tutarındaki satışı silmek istiyor musunuz? </p>
+@using (Html.BeginForm("Sil", "Satis", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+
+    @Html.HiddenFor(x => x.Id)
+
+    <div class="row mb-3">
+        <div class="offset-md-2 col-md-10">
+            <a href="@Url.Action("Listele")" class="btn btn-danger">İptal</a>
+            <button type="submit" class="btn btn-primary">Sil</button>
+        </div>
+    </div>
+}
+

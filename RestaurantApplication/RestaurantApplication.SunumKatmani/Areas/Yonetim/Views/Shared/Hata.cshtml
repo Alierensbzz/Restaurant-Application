@@ -1,0 +1,70 @@
+﻿@model Exception
+@{
+    ViewBag.Title = "Hata";
+    Layout = null; 
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .error-container {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 600px;
+            margin: 20px;
+        }
+
+            .error-container h2 {
+                color: #dc3545;
+            }
+
+            .error-container hr {
+                margin: 20px 0;
+                border: 0;
+                border-top: 1px solid #ddd;
+            }
+
+        .error-message {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .stack-trace {
+            text-align: left;
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h2>Hata Oluştu !!!</h2>
+        <hr />
+        <div class="error-message">
+            <h4>Hata Mesajı: @Model.Message</h4>
+        </div>
+    </div>
+</body>
+</html>

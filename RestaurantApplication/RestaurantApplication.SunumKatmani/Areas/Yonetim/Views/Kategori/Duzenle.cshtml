@@ -1,0 +1,65 @@
+﻿@using RestaurantApplication.VarlikKatmani.Models
+@model Kategori
+@{
+    ViewBag.Title = "Duzenle";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col text-center">
+            <h2 class="mb-4 text-white">Kategori Güncelle</h2>
+        </div>
+    </div>
+    <hr class="bg-light" />
+    @using (Html.BeginForm("Duzenle", "Kategori", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="row mb-3">
+            @Html.LabelFor(x => x.Ad, new { @class = "col-form-label col-md-2 text-white" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.Ad, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Ad, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col text-center">
+                <a href="@Url.Action("Listele", "Kategori")" class="btn btn-danger mr-2">İptal</a>
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    body {
+        background: url('/Images/restaurant1.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .btn {
+        border-radius: 20px;
+    }
+
+    .text-white {
+        color: #fff;
+    }
+
+    .bg-light {
+        border-color: #f8f9fa !important;
+    }
+
+    .text-danger {
+        color: #dc3545;
+    }
+
+    .container {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .form-control {
+        border-radius: 10px;
+    }
+</style>

@@ -1,0 +1,23 @@
+﻿@using RestaurantApplication.VarlikKatmani.Models
+@model Kullanici
+@{
+    ViewBag.Title = "Sil";
+}
+
+<h2>Kullanıcı Sil</h2>
+<hr />
+<p>@Model.Eposta eposta adresli kullanıcı silmek istiyor musunuz? </p>
+@using (Html.BeginForm("Sil", "Kullanici", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(x => x.Eposta)
+
+    <div class="form-group">
+        <div class="col-md-10 col-md-offset-2">
+            <a href="@Url.Action("Listele")" class="btn btn-default">İptal</a>
+            <button type="submit" class="btn btn-danger">Sil</button>
+        </div>
+    </div>
+}
+
